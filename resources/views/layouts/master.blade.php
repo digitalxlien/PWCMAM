@@ -13,20 +13,13 @@
 
   @include('layouts.nav')
 
-  {{-- Contenedor principal --}}
   <div class="container">
-    {{-- Fila --}}
     <div class="row">
-
-      {{-- Columna --}}
-      <div class="col-md-6">
         @yield('content')
-      </div>
-
     </div>
   </div>
 
   @include('layouts.footer')
-  
+
 </body>
 </html>
