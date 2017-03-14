@@ -29,7 +29,7 @@
         {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
         @yield('announcement')
         @yield('announcement')
-
+        @yield('map')
       </div>
 
     </div>
