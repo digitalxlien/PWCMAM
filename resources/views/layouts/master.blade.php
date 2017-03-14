@@ -19,27 +19,16 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-md-8">
+      <div class="col-md-6">
 
-        {{-- @yield('content') --}}
+        @yield('content')
 
-        <div class="panel panel-default">
-            <div class="panel-heading">Formulario con ckeditor</div>
-
-            <div class="panel-body">
-                <form>
-                    <textarea class="ckeditor" name="editor1" id="editor1" rows="10" cols="75">
-                        Este es el textarea que es modificado por la clase ckeditor
-                    </textarea>
-                </form>
-            </div>
-        </div>
       </div>
       <div class="col-md-4 pull-right">
 
         {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
-        @include('layouts.announcement')
-        @include('layouts.announcement')
+        @yield('announcement')
+        @yield('announcement')
 
       </div>
 
