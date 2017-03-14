@@ -13,11 +13,27 @@
 
   @include('layouts.nav')
 
+
   <div class="container">
     <div class="row">
+
+      <div class="col-md-8">
+
         @yield('content')
+        @yield('content')
+        @yield('content')
+
+      </div>
+      <div class="col-md-4">
+
+        @include('layouts.announcement')
+        @include('layouts.announcement')
+
+      </div>
+
     </div>
   </div>
+
 
   @include('layouts.footer')
 
