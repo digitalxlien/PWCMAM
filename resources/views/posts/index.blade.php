@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('content')
+@section('richtext')
 
 
     <h1>Examenes de adminision(Ejemplo de post)</h1>

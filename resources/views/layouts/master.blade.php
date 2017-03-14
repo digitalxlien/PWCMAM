@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/complements.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{{ asset('/vendors/ckeditor/ckeditor.js') }}"></script>
+ </script>
 </head>
 <body>
 
@@ -19,13 +21,23 @@
 
       <div class="col-md-8">
 
-        @yield('content')
-        @yield('content')
-        @yield('content')
+        {{-- @yield('content') --}}
 
+        <div class="panel panel-default">
+            <div class="panel-heading">Formulario con ckeditor</div>
+
+            <div class="panel-body">
+                <form>
+                    <textarea class="ckeditor" name="editor1" id="editor1" rows="10" cols="75">
+                        Este es el textarea que es modificado por la clase ckeditor
+                    </textarea>
+                </form>
+            </div>
+        </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 pull-right">
 
+        {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
         @include('layouts.announcement')
         @include('layouts.announcement')
 
