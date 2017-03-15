@@ -3,13 +3,9 @@
 }
 
 /*Sólo afecta al contenedor de master.blade.php*/
-#container{
+.padding-container{
   padding-top: 4.5em;
 }
-
-/*footer {
-  background-color: #333333;
-}*/
 
 .full {
     width: 100%;

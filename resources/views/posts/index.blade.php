@@ -2,6 +2,7 @@
 
 @section('content')
 
+  <div class="col-md-6">
 
     <h1>Examenes de adminision</h1>
     <p>
@@ -11,6 +12,7 @@
       El exmen tendra un costo de admision de $900.00, incluye exaen antidoping
 
     </p>
+  </div>
 
 @endsection
 

@@ -17,14 +17,12 @@
   @include('layouts.nav')
 
 
-  <div id="container" class="container">
+  <div class="container padding-container">
     <div class="row">
 
-      <div class="col-md-6">
 
         @yield('content')
 
-      </div>
       <div class="col-md-4 pull-right">
 
         {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
