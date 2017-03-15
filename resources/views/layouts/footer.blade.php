@@ -1,5 +1,7 @@
 <footer>
   <div class="footer" id="footer">
+  <div class="container">
+      <div class="justify-content-center">
         <div class="col-md-2">
           <h3> Nuestra Institución </h3>
           <ul>
