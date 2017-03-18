@@ -147,3 +147,12 @@
   display: flex;
   justify-content: center;
 }
+
+.pull-center {
+  display: flex;
+  justify-content: center;
+}
+
+.label-title {
+  font-size: 19px;
+}
