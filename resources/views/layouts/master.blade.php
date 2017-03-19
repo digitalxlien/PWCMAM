@@ -26,9 +26,8 @@
       <div class="col-md-4 pull-right">
 
         {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
-        @yield('announcement')
-        @yield('announcement')
-        @yield('map')
+        @include('layouts.announcement')
+        @include('layouts.map')
       </div>
 
     </div>
