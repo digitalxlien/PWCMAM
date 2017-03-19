@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="col-lg-12 pull-center">
-  <div class=" col-lg-6 col-md-6 col-sm-8 col-xs-8">
+<div class="col-lg-6">
 
     <form class="form-group" action="" method="POST">
       {{ csrf_field() }}
@@ -26,7 +25,6 @@
 
       </fieldset>
     </form>
-  </div>
 </div>
 
 
