@@ -32,12 +32,12 @@
         </tr>
         </tbody>
       </table>
-      <strong>Mayor información: Solicitarla al E-Mail:cmam@aguilas.org.mx, al teléfono 01 (341) 413-3208 con la Srita. Judith Betancourt, o bien llenando el siguiente formulario</strong>
+      <strong>Mayor información: cmam@aguilas.org.mx, al teléfono 01 (341) 413-3208 con la Srita. Judith Betancourt, o bien llenando el siguiente <a href="#">formulario</a></strong>
     </div>
 
 
     {{-- DOCUMENTACIÓN NECESARIA --}}
-    <div class="col-lg- jumbotron">
+    <div class="col-lg-12 jumbotron">
       <table class="table table-hover table-responsive">
         <thead>
         <tr>
@@ -94,6 +94,26 @@
       </table>
     </div>
 
+    <div class="col-lg-12 jumbotron">
+      <p class="text-center h3">CONVOCATORIA DE INGRESO</p>
+      <table class="table table-hover table-responsive">
+        <tbody>
+        <tr>
+          <td class="text-center h5"><a href="#">Formato PDF</a></td>
+          <td class="text-center h5"><a href="#">Formato Word</a></td>
+        </tr>
+        </tbody>
+      </table>
+      <p class="text-center h3">SOLICITUD DE INSCRIPCION PARA ASPIRANTES</p>
+      <table class="table table-hover table-responsive">
+        <tbody>
+        <tr>
+          <td class="text-center h5"><a href="#">Formato PDF</a></td>
+          <td class="text-center h5"><a href="#">Formato Word</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 
 @endsection
