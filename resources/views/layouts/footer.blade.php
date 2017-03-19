@@ -18,6 +18,9 @@
             <li><a href="#">Convocatoria y Solicitud</a></li>
             <li><a href="#">Inscríbete</a></li>
             <li><a href="#">Requisitos</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+            <li><a href="#">Links</a></li>
+
           </ul>
         </div>
         <div class="col-md-2">
