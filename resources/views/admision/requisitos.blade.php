@@ -2,8 +2,9 @@
 
 @section('content')
   <div class="col-lg-8 col-md-8 col-sm-12 container">
-    <h2 class="text-center">BACHILLERATO MILITARIZADO</h2><hr>
     <div class="col-lg-12 jumbotron">
+      <h2 class="text-center">BACHILLERATO MILITARIZADO</h2><hr>
+
       <p class="text-center text-info">Las Inscripciones se podrán hacer en Constitución No. 434, En Cd. Guzmán, Jalisco. MEX. - Teléfono: 01 (341) 413-32-08 o llenando la <a href="#">Cédula de Pre-inscripción</a></p><hr>
 
       {{-- REQUISITOS --}}
