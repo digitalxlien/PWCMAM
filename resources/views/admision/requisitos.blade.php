@@ -2,12 +2,15 @@
 
 @section('content')
   <div class="col-lg-8 col-md-8 col-sm-12 container">
+    <h2 class="text-center">BACHILLERATO MILITARIZADO</h2><hr>
     <div class="col-lg-12 jumbotron">
+      <p class="text-center text-info">Las Inscripciones se podrán hacer en Constitución No. 434, En Cd. Guzmán, Jalisco. MEX. - Teléfono: 01 (341) 413-32-08 o llenando la <a href="#">Cédula de Pre-inscripción</a></p><hr>
+
       {{-- REQUISITOS --}}
-      <table class="table table-hover table-responsive">
+        <table class="table table-hover table-responsive">
         <thead>
         <tr>
-          <th class="text-center h3">BACHILLERATO MILITARIZADO - NUEVO INGRESO</th>
+          <th class="text-center h4">REQUISITOS DE INGRESO - NUEVO INGRESO</th>
         </tr>
         </thead>
 
@@ -41,7 +44,7 @@
       <table class="table table-hover table-responsive">
         <thead>
         <tr>
-          <th class="text-center h3">DOCUMENTACIÓN NECESARIA</th>
+          <th class="text-center h4">DOCUMENTACIÓN NECESARIA</th>
         </tr>
         </thead>
 
@@ -76,7 +79,7 @@
       <table class="table table-hover table-responsive">
         <thead>
         <tr>
-          <th class="text-center h3">Documentación extra en caso de ser extranjero</th>
+          <th class="text-center h4">Documentación extra en caso de ser extranjero</th>
         </tr>
         </thead>
 
@@ -94,8 +97,9 @@
       </table>
     </div>
 
+    {{-- CONVOCATORIA Y SOLICITUD DE INSCRIPCIÓN --}}
     <div class="col-lg-12 jumbotron">
-      <p class="text-center h3">CONVOCATORIA DE INGRESO</p>
+      <p class="text-center h4">CONVOCATORIA DE INGRESO</p>
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
@@ -104,7 +108,7 @@
         </tr>
         </tbody>
       </table>
-      <p class="text-center h3">SOLICITUD DE INSCRIPCION PARA ASPIRANTES</p>
+      <p class="text-center h4">SOLICITUD DE INSCRIPCION PARA ASPIRANTES</p>
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
@@ -114,6 +118,60 @@
         </tbody>
       </table>
     </div>
+
+    {{-- ADIESTRAMIENTO BÁSICO MILITARIZADO --}}
+    <div class="col-lg-12 jumbotron">
+      <h2 class="text-center">ADIESTRAMIENTO BÁSICO MILITARIZADO</h2><hr>
+
+        <table class="table table-hover table-responsive">
+        <thead>
+        <tr>
+          <th class="text-center h4">REQUISITOS DE INGRESO</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td class="text-justify h5">Primaria Terminada.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Estatura Mínima: 1.60 Mts. Hombres y 1.50 Mts. Mujeres.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Ser Mayor de 14 años de edad.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Estricta disciplina y actitud de servicio.</td>
+        </tr>
+        </tbody>
+      </table>
+
+
+      {{-- DOCUMENTACIÓN NECESARIA - ADIESTRAMIENTO--}}
+      <table class="table table-hover table-responsive">
+        <thead>
+        <tr>
+          <th class="text-center h4">DOCUMENTACIÓN NECESARIA</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td class="text-justify h5">Copia Fotostatica del Certificado de Estudios o constancia correspondiente.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Copia Fotostática del Acta de Nacimiento.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Autorización del Padre, Madre o Tutor Legal.</td>
+        </tr>
+        <tr>
+          <td class="text-justify h5">Certificado Médico de Una institución Oficial (Imss, Isste, Centro de Salud SSA).</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
   </div>
 
 @endsection
