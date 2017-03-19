@@ -23,7 +23,7 @@
 
         @yield('content')
 
-      <div class=" col-lg-4 col-md-4 col-sm-5 col-xs-12 pull-right">
+      <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-right">
 
         {{-- Cambiar de layout a Announcements como un modelo y todas sus acciones correspondientes --}}
         @include('layouts.announcement')

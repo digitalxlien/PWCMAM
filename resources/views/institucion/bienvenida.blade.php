@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
+<div class="col-lg-8 col-md-8 col-sm-12">
   <div class="col-lg-12 jumbotron">
     <h1>Bienvenido</h1>
     <blockquote >
@@ -16,5 +17,7 @@
     <p class="text-justify">Es una institución que fué fundada en 1987 como asociación civil y con 29 años de trayectoria institucional y 10 años de experiencia continua al lograr ofrecer un modelo educativo enfocado al desarrollo pleno del alumnado, logrando infundir en nuestros egresados una semilla de liderazgo social en beneficio de nuestra nación.</p>
     <p class="text-justify">Hemos observado con satisfacción como muchos de nuestros egresados han decidido continuar con la carrera de las armas integrándose a los diversos planteles Militares del Ejército, Fuerza Aérea o Marina, así también hemos observado a otros jóvenes que como profesionistas han aplicado los principios que rigen a nuestra institución y han destacado en sus áreas de desempeño,tanto en sus estudios como en su trabajo. </p>
   </div>
+
+</div>
 
 @endsection
