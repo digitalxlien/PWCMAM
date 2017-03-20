@@ -9,7 +9,7 @@
   <h1></h1>
 
 
-  <p class="text-justify font-medium">
+  <p class="text-justify">
     El Colegio Militarizado Águilas de México, se encuentra siempre dispuesto a ayudar en la
     medida de sus recursos a la Sociedad a la que pertenece, por tal motivo se tienen contempladas
     diferentes actividades para apoyar el bienestar comunitario, entre estas acciones se encuentran:

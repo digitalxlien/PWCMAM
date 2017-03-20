@@ -38,7 +38,7 @@
           <ul>
             <li><a href="https://goo.gl/hRtXBU">Galería de Facebook</a></li>
             <li><a href="campanas">Campañas</a></li>
-            <li><a href="#">Maniobras</a></li>
+            <li><a href="maniobras">Maniobras</a></li>
             <li><a href="#">Servicios</a></li>
             <li><a href="#">Galería Fotográfica</a></li>
           </ul>
