@@ -13,7 +13,7 @@
     </p>
 
     <h2> Auxilios en casos de desastres </h2>
-    <img class="col-md-12" src="images/image-md.jpg">
+    <img class="col-md-12 img-fluid" src="images/image-md.jpg">
     <small class="text-justify">
       Personal del CMAM implementando el "Plan Operativo en Desastres" en Cihuatlán, Jalisco.
       Este plan marca el procedimiento de operar en casos de desastre, para que nuestro apoyo
@@ -21,21 +21,21 @@
       accidentes carreteros, una posible erupción del Volcán Colima, inundaciones, derrumbes, entre otras.
     </small>
 
-    <img src="images/image-md.jpg">
+    <img src="images/image-md.jpg" class=" img-fluid">
     <p class="text-justify">
       Personal realizando prácticas de Rescate y Salvamento, cruzando una barranca con la técnica de
        "Tirolesa", esta técnica permite hacer llegar los servicios de emergencia hasta zonas que han
        sido debastadas por la naturaleza, como derrumbe de puentes, etc.
     </p>
 
-    <img class="col-lg-12" src="images/image-md.jpg">
+    <img class="col-lg-12 img-fluid" src="images/image-md.jpg">
     <p class="text-justify">
       En esta imagen observamos al grupo Táctico, realizar un descenso de la catedral de Cd. Guzmán,
       con la técnica de Teleférico, en ocasiones útil para llegar de manera rápida y segura a lugares
       agrestes, así como para descender o ascender lesionados en camilla.
     </p>
 
-    <img class="col-lg-12" src="images/image-md.jpg">
+    <img class="col-lg-12 img-fluid" src="images/image-md.jpg">
     <p class="text-justify">
       Exhibición de Tombling, donde el personal cruza la "Cama de Fuego"
       con un salto del tigre por arriba y tambien a rastras. ¡Un error puede ser fatal!
