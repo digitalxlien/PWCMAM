@@ -176,3 +176,5 @@
 .font-medium {
   font-size: 18px;
 }
+
+.anchor:target {padding-top: 60px;}
