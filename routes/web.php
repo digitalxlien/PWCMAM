@@ -6,8 +6,8 @@ Route::get('/', 'PostsController@index');
 
 //ROUTES TO NUESTRA INSTITUCIÓN:
 Route::get('/bienvenida', function() { return view('institucion.bienvenida'); });
-Route::get('/historia', function()   { return view('institucion.historia');   });
-Route::get('/moral', function()      { return view('institucion.moral');      });
+Route::get('/historia',   function() { return view('institucion.historia');   });
+Route::get('/moral',      function() { return view('institucion.moral');      });
 
 //ROUTES TO ADMISIÓN:
 Route::get('/requisitos', function() {
