@@ -8,6 +8,9 @@ Route::get('/', 'PostsController@index');
 Route::get('/bienvenida', function() {
   return view('institucion.bienvenida');
 });
+Route::get('/historia', function() {
+  return view('institucion.historia');
+});
 
 //ROUTES TO ADMISIÓN:
 Route::get('/requisitos', function() {
