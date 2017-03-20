@@ -5,9 +5,10 @@
 Route::get('/', 'PostsController@index');
 
 //ROUTES TO NUESTRA INSTITUCIÓN:
-Route::get('/bienvenida', function() { return view('institucion.bienvenida'); });
-Route::get('/historia',   function() { return view('institucion.historia');   });
-Route::get('/moral',      function() { return view('institucion.moral');      });
+Route::get('/bienvenida',   function() { return view('institucion.bienvenida');   });
+Route::get('/historia',     function() { return view('institucion.historia');     });
+Route::get('/moral',        function() { return view('institucion.moral');        });
+Route::get('/organizacion', function() { return view('institucion.organizacion'); });
 
 //ROUTES TO ADMISIÓN:
 Route::get('/requisitos', function() {
@@ -17,7 +18,7 @@ Route::get('/requisitos', function() {
 //ROUTES TO ACADÉMICO:
 
 //ROUTES TO VIDA DEL CADETE:
-Route::get('/campanas',   function() { return view('vida-del-cadete.campanas');});
+Route::get('/campanas',   function() { return view('vida-del-cadete.campanas'); });
 Route::get('/maniobras',  function() { return view('vida-del-cadete.maniobras');});
 Route::get('/servicios',  function() { return view('vida-del-cadete.servicios');});
 //ROUTES TO DEPORTES:
