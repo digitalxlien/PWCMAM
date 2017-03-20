@@ -15,10 +15,10 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nuestra Institución <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="/bienvenida">Bienvenida</a></li>
-            <li><a href="#">Historia</a></li>
-            <li><a href="#">Educación Moral</a></li>
+            <li><a href="/historia">Historia</a></li>
+            <li><a href="/moral">Educación Moral</a></li>
             {{-- <li class="divider"></li> --}}
-            <li><a href="#">Organización</a></li>
+            <li><a href="/organizacion">Organización</a></li>
             <li><a href="#">Instalaciones</a></li>
           </ul>
         </li>
