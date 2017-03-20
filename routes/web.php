@@ -19,6 +19,7 @@ Route::get('/requisitos', function() {
 //ROUTES TO VIDA DEL CADETE:
 Route::get('/campanas',   function() { return view('vida-del-cadete.campanas');});
 Route::get('/maniobras',  function() { return view('vida-del-cadete.maniobras');});
+Route::get('/servicios',  function() { return view('vida-del-cadete.servicios');});
 //ROUTES TO DEPORTES:
 
 Route::get('/login', 'SessionsController@create');
