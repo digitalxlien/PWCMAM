@@ -3,17 +3,13 @@
 @section('content')
   <div class="col-lg-8 col-md-8 col-sm-12 container">
     <div class="col-lg-12 jumbotron">
-      <h2 class="text-center">BACHILLERATO MILITARIZADO</h2><hr>
+      <h2 class="text-center text-primary">BACHILLERATO MILITARIZADO</h2><hr>
 
       <p class="text-center text-info">Las Inscripciones se podrán hacer en Constitución No. 434, En Cd. Guzmán, Jalisco. MEX. - Teléfono: 01 (341) 413-32-08 o llenando la <a href="#">Cédula de Pre-inscripción</a></p><hr>
 
-      {{-- REQUISITOS --}}
-        <table class="table table-hover table-responsive">
-        <thead>
-        <tr>
-          <th class="text-center h4">REQUISITOS DE INGRESO - NUEVO INGRESO</th>
-        </tr>
-        </thead>
+        {{-- REQUISITOS --}}
+        <h3 class="text-center list-group-item list-group-item-info">REQUISITOS DE INGRESO - NUEVO INGRESO</h3>
+        <table class="table table-hover table-responsive table-bordered">
 
         <tbody>
         <tr>
@@ -42,12 +38,9 @@
 
     {{-- DOCUMENTACIÓN NECESARIA --}}
     <div class="col-lg-12 jumbotron">
-      <table class="table table-hover table-responsive">
-        <thead>
-        <tr>
-          <th class="text-center h4">DOCUMENTACIÓN NECESARIA</th>
-        </tr>
-        </thead>
+      <h3 class="text-center list-group-item list-group-item-info">DOCUMENTACIÓN NECESARIA</h3>
+
+      <table class="table table-hover table-responsive table-bordered">
 
         <tbody>
         <tr>
@@ -77,13 +70,8 @@
         </tbody>
       </table>
 
-      <table class="table table-hover table-responsive">
-        <thead>
-        <tr>
-          <th class="text-center h4">Documentación extra en caso de ser extranjero</th>
-        </tr>
-        </thead>
-
+      <h3 class="text-center list-group-item list-group-item-warning">Documentación extra en caso de ser extranjero</h3>
+      <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
           <td class="text-justify h5">Resolución de revalidación de estudios, si cursó la educación secundaria en el extranjero.</td>
@@ -100,7 +88,7 @@
 
     {{-- CONVOCATORIA Y SOLICITUD DE INSCRIPCIÓN --}}
     <div class="col-lg-12 jumbotron">
-      <p class="text-center h4">CONVOCATORIA DE INGRESO</p>
+      <h4 class="text-center list-group-item h4">CONVOCATORIA DE INGRESO</h4>
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
@@ -109,7 +97,7 @@
         </tr>
         </tbody>
       </table>
-      <p class="text-center h4">SOLICITUD DE INSCRIPCION PARA ASPIRANTES</p>
+      <h4 class="text-center list-group-item h4">SOLICITUD DE INSCRIPCION PARA ASPIRANTES</h4>
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
@@ -122,15 +110,10 @@
 
     {{-- ADIESTRAMIENTO BÁSICO MILITARIZADO --}}
     <div class="col-lg-12 jumbotron">
-      <h2 class="text-center">ADIESTRAMIENTO BÁSICO MILITARIZADO</h2><hr>
+      <h2 class="text-center text-primary">ADIESTRAMIENTO BÁSICO MILITARIZADO</h2><hr>
 
-        <table class="table table-hover table-responsive">
-        <thead>
-        <tr>
-          <th class="text-center h4">REQUISITOS DE INGRESO</th>
-        </tr>
-        </thead>
-
+        <h4 class="text-center list-group-item list-group-item-info h4">REQUISITOS DE INGRESO</h4>
+        <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
           <td class="text-justify h5">Primaria Terminada.</td>
@@ -149,13 +132,8 @@
 
 
       {{-- DOCUMENTACIÓN NECESARIA - ADIESTRAMIENTO--}}
-      <table class="table table-hover table-responsive">
-        <thead>
-        <tr>
-          <th class="text-center h4">DOCUMENTACIÓN NECESARIA</th>
-        </tr>
-        </thead>
-
+      <h4 class="text-center list-group-item list-group-item-info h4">DOCUMENTACIÓN NECESARIA</h4>
+      <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
           <td class="text-justify h5">Copia Fotostatica del Certificado de Estudios o constancia correspondiente.</td>
