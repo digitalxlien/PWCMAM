@@ -34,7 +34,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Académico <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Cuadro de Honor</a></li>
-            <li><a href="#">Preparatoria Militarizada</a></li>
+            <li><a href="/preparatoria">Preparatoria Militarizada</a></li>
             <li><a href="#">Cursos</a></li>
             <li><a href="#">Apuntes</a></li>
             <li><a href="#">Egresados</a></li>
