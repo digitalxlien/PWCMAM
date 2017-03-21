@@ -4,7 +4,7 @@
   <div class="col-lg-8 col-md-8 col-sm-12">
 
     <div >
-      <img class="img-fluid" src="images/aguila2.JPG" alt="">
+      <img class="img-fluid" src="images/aguila2.jpg" alt="">
     </div>
     <div class="">
       <table class="table table-hover table-responsive">
