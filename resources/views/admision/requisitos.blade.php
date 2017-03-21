@@ -8,7 +8,7 @@
       <p class="text-center text-info">Las Inscripciones se podrán hacer en Constitución No. 434, En Cd. Guzmán, Jalisco. MEX. - Teléfono: 01 (341) 413-32-08 o llenando la <a href="#">Cédula de Pre-inscripción</a></p><hr>
 
         {{-- REQUISITOS --}}
-        <h3 class="text-center list-group-item list-group-item-info">REQUISITOS DE INGRESO - NUEVO INGRESO</h3>
+        <h4 class="text-center text-primary list-group-item active">REQUISITOS DE INGRESO - NUEVO INGRESO</h4>
         <table class="table table-hover table-responsive table-bordered">
 
         <tbody>
@@ -38,7 +38,7 @@
 
     {{-- DOCUMENTACIÓN NECESARIA --}}
     <div class="col-lg-12 jumbotron">
-      <h3 class="text-center list-group-item list-group-item-info">DOCUMENTACIÓN NECESARIA</h3>
+      <h4 class="text-center text-primary list-group-item active">DOCUMENTACIÓN NECESARIA</h4>
 
       <table class="table table-hover table-responsive table-bordered">
 
@@ -70,7 +70,7 @@
         </tbody>
       </table>
 
-      <h3 class="text-center list-group-item list-group-item-warning">Documentación extra en caso de ser extranjero</h3>
+      <h4 class="text-center list-group-item list-group-item-warning">Documentación extra en caso de ser extranjero</h4>
       <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
@@ -112,7 +112,7 @@
     <div class="col-lg-12 jumbotron">
       <h2 class="text-center text-primary">ADIESTRAMIENTO BÁSICO MILITARIZADO</h2><hr>
 
-        <h4 class="text-center list-group-item list-group-item-info h4">REQUISITOS DE INGRESO</h4>
+        <h4 class="text-center text-primary list-group-item active">REQUISITOS DE INGRESO</h4>
         <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
@@ -132,7 +132,7 @@
 
 
       {{-- DOCUMENTACIÓN NECESARIA - ADIESTRAMIENTO--}}
-      <h4 class="text-center list-group-item list-group-item-info h4">DOCUMENTACIÓN NECESARIA</h4>
+      <h4 class="text-center text-primary list-group-item active">DOCUMENTACIÓN NECESARIA</h4>
       <table class="table table-hover table-responsive table-bordered">
         <tbody>
         <tr>
