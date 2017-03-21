@@ -16,6 +16,10 @@ Route::get('/requisitos', function() {
 });
 
 //ROUTES TO ACADÉMICO:
+Route::get('/preparatoria', function() {
+  return view('academico.preparatoria');
+});
+
 
 //ROUTES TO VIDA DEL CADETE:
 Route::get('/campanas',   function() { return view('vida-del-cadete.campanas'); });
