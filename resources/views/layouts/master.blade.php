@@ -15,27 +15,24 @@
 </head>
 <body>
 
-  @include('layouts.nav')
+    @include('layouts.nav')
+
+    <div class="container padding-container">
+      <div class="row">
 
 
-  <div class="container padding-container">
-    <div class="row">
-      <div class="col-md-8">
-        @yield('content')
-        @yield('content')
-        
+          @yield('content')
+
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-right">
+
+          @include('layouts.announcement')
+          @include('layouts.map')
+        </div>
+
       </div>
-
-      <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-right">
-        @include('layouts.announcement')
-        @include('layouts.map')
-      </div>
-
     </div>
-  </div>
 
+    @include('layouts.footer')
 
-  @include('layouts.footer')
-
-</body>
+  </body>
 </html>

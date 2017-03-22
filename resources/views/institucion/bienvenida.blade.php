@@ -4,7 +4,7 @@
 <div class="col-lg-8 col-md-8 col-sm-12">
   <div class="col-lg-12 jumbotron">
     <h2 class="text-center text-primary">BIENVENIDO</h2>
-    <blockquote >
+    <blockquote>
       <p class="text-justify">Gracias por visitar la página del Colegio Militarizado "Águilas de México", es para nosotros un honor el poder mostrarte nuestra opción educativa y será muy grato para nosotros el que puedas formar parte activa de esta comunidad de aprendizaje.</p>
 
       <p class="text-justify">El Colegio Militarizado Águilas de México es una institución educativa particular incorporada al sistema educativo nacional, destinada a formar alumnos de excelencia, de una manera integral: tanto física, moral como intelectualmente, con la finalidad de que los alumnos al egresar puedan desempeñar eficientemente y con disciplina cualquier acción de su vida cotidiana, formando en ellos hombres íntegros con carácter de triunfadores.</p>
