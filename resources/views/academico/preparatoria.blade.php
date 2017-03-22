@@ -48,7 +48,7 @@
             <td class="text-justify font-small">Acceso a los apoyos bibliográficos necesarios para asegurar la calidad de la educación que recibes.</td>
           </tr>
           <tr>
-            <td class="text-justify font-small">El <a href="#">plan de estudio</a> es elaborado por la S.E.P. bajo la modalidad de Bachillerato General por competencias ofreciendose  dos áreas de especialidad: <b>Administración</b> e <b>Informática</b> </td>
+            <td class="text-justify font-small">El <a href="documents/Plan_de_estudios.pdf">plan de estudio</a> es elaborado por la S.E.P. bajo la modalidad de Bachillerato General por competencias ofreciendose  dos áreas de especialidad: <b>Administración</b> e <b>Informática</b> </td>
           </tr>
         </tbody>
       </table>
@@ -98,7 +98,7 @@
              <td class="text-center font-small">Al Ingresar</td>
            </tr>
            <tr>
-             <td class="text-center font-small">COSTO DE UNIFORMES <small><a href="#">(Anexo "B" de la Convocatoria de ingreso)</a></small></td>
+             <td class="text-center font-small">COSTO DE UNIFORMES <small><a href="documents/Convocatoria.pdf">(Anexo "B" de la Convocatoria de ingreso)</a></small></td>
              <td class="text-center font-small">$ 4,500.00</td>
              <td class="text-center font-small">Al Ingresar</td>
            </tr>
@@ -138,7 +138,7 @@
          <h3 class="text-center font-small h3">Reclutamiento: Srita. Mayra Cortés y/o Sra. Leticia Naranjo </h3>
          <h3 class="text-center font-small h3">Tel: 01 (341) 413-32-08</h3>
          <h3 class="text-center font-small h3">E-Mail: <a href="mailto:cmam@aguilas.org.mx?subject=Comentarios_desde_pagina_web">cmam@aguilas.org.mx</a></h3>
-         <h3 class="text-center text-primary list-group-item list-group-item-danger"><a href="/">¡INSCRIBETE YA!</a></h3>
+         <h3 class="text-center text-primary list-group-item list-group-item-danger"><a href="#">¡INSCRIBETE YA!</a></h3>
          <h3 class="text-center font-small h3">( Aparta tu lugar, Cupo Limitado )</h3>
 
        </div>
