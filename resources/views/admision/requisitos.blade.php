@@ -92,8 +92,8 @@
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
-          <td class="text-center h5"><a href="#">Formato PDF</a></td>
-          <td class="text-center h5"><a href="#">Formato Word</a></td>
+          <td class="text-center h5"><a href="documents/Convocatoria.pdf">Formato PDF</a></td>
+          <td class="text-center h5"><a href="documents/Convocatoria.doc">Formato Word</a></td>
         </tr>
         </tbody>
       </table>
@@ -101,8 +101,8 @@
       <table class="table table-hover table-responsive">
         <tbody>
         <tr>
-          <td class="text-center h5"><a href="#">Formato PDF</a></td>
-          <td class="text-center h5"><a href="#">Formato Word</a></td>
+          <td class="text-center h5"><a href="documents/Solicitud_aspirantes.pdf">Formato PDF</a></td>
+          <td class="text-center h5"><a href="documents/Solicitud_aspirantes.doc">Formato Word</a></td>
         </tr>
         </tbody>
       </table>
