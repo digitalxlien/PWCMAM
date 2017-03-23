@@ -17,7 +17,7 @@
           <ul>
             <li><a href="#">Convocatoria y Solicitud</a></li>
             <li><a href="#">Inscríbete</a></li>
-            <li><a href="#">Requisitos</a></li>
+            <li><a href="requisitos">Requisitos</a></li>
             <li><a href="#">Trabaja con nosotros</a></li>
             <li><a href="#">Links</a></li>
 
@@ -27,9 +27,9 @@
           <h3> Académico </h3>
           <ul>
             <li><a href="#">Cuadro de Honor</a></li>
-            <li><a href="#">Preparatoria Militarizada</a></li>
+            <li><a href="preparatoria">Preparatoria Militarizada</a></li>
             <li><a href="#">Cursos</a></li>
-            <li><a href="#">Apuntes</a></li>
+            <li><a href="apuntes">Apuntes</a></li>
             <li><a href="#">Egresados</a></li>
           </ul>
         </div>
