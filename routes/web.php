@@ -12,14 +12,11 @@ Route::get('/moral',        function() { return view('institucion.moral');      
 Route::get('/organizacion', function() { return view('institucion.organizacion'); });
 
 //ROUTES TO ADMISIÓN:
-Route::get('/requisitos', function() {
-  return view('admision.requisitos');
-});
+Route::get('/requisitos', function() { return view('admision.requisitos'); });
 
 //ROUTES TO ACADÉMICO:
-Route::get('/preparatoria', function() {
-  return view('academico.preparatoria');
-});
+Route::get('/preparatoria', function() { return view('academico.preparatoria'); });
+Route::get('/apuntes', function() { return view('academico.apuntes'); });
 
 
 //ROUTES TO VIDA DEL CADETE:
