@@ -4,6 +4,7 @@
 // POSTS
 Route::get('/', 'PostsController@index');
 Route::get('/posts/create', 'PostsController@create');
+Route::post('/posts/store',  'PostsController@store');
 
 //ROUTES TO NUESTRA INSTITUCIÓN:
 Route::get('/bienvenida',   function() { return view('institucion.bienvenida');   });
