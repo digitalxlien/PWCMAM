@@ -8,13 +8,15 @@ use App\User;
 class SessionsController extends Controller
 {
   //Corregir problema en los construcotres de Post y Sessions
-    
-    // public function __construct()
-    // {
-    //
-    //   $this->middleware('guest', ['except ' => 'destroy']);
-    //
-    // }
+
+    public function __construct()
+    {
+      // Esta linea indica que como guest (usuario no logueado)
+      // no podras acceder al metodo destroy (o a la ruta /logout)
+      //ya que no es necesario pues no ha iniciado ni siquiera sesion
+      $this->middleware('guest', ['except' => 'destroy']);
+
+    }
 
     public function create()
     {

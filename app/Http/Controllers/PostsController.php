@@ -6,17 +6,17 @@ use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
+    //Corregir problema en los construcotres de Post y
+    public function __construct()
+    {
 
-    // public function __construct()
-    // {
-    //
-    //   // Esta linea indica que deberas estar logueado
-    //   // para acceder a los metodos de este Controlador
-    //   // excepto index y show (porque esos metodos los pueden
-    //   // ver cualquier usuario este registrado o no)
-    //   $this->middleware('auth', ['except'=> 'index']);
-    //
-    // }
+      // Esta linea indica que deberas estar logueado
+      // para acceder a los metodos de este Controlador
+      // excepto index (porque esos metodos los pueden
+      // ver cualquier usuario este registrado o no)
+      $this->middleware('auth', ['except' => ['index', 'test']]);
+
+    }
     public function index()
     {
 
@@ -50,11 +50,11 @@ class PostsController extends Controller
       // // 'user_id' => auth()->id()
       // ]);
 
-
-
       return redirect('/');
 
     }
+
+    public function test(){}
 
 
 }
