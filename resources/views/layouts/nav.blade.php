@@ -62,6 +62,21 @@
             <li><a href="deportes#natacion-y-buceo">Natación y Buceo</a></li>
           </ul>
         </li>
+        @if (Auth::check())
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bienvenido {{ Auth::user()->name }}<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Cerrar Sesión</a></li>
+            </ul>
+          </li>
+        @else
+          <li >
+            <a class="dropdown-toggle">Iniciar Sesión<span></span></a>
+
+          </li>
+        @endif
+
+
       </ul>
     </div>
   </div>
