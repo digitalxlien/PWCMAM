@@ -65,7 +65,8 @@
         @if (Auth::check())
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bienvenido {{ Auth::user()->name }}<span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
+            <ul class="dropdown-menu">
+              <li><a href="/posts/create">Crear publicación</a></li>
               <li><a href="/logout">Cerrar Sesión</a></li>
             </ul>
           </li>
