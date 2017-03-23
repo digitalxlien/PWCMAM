@@ -25,6 +25,7 @@
 
       </fieldset>
     </form>
+    @include('layouts.error')
 </div>
 
 
