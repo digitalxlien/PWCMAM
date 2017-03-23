@@ -7,12 +7,14 @@ use App\User;
 
 class SessionsController extends Controller
 {
-    public function __construct()
-    {
-
-      $this->middleware('guest', ['except ' => 'destroy']);
-
-    }
+  //Corregir problema en los construcotres de Post y Sessions
+    
+    // public function __construct()
+    // {
+    //
+    //   $this->middleware('guest', ['except ' => 'destroy']);
+    //
+    // }
 
     public function create()
     {
@@ -36,10 +38,9 @@ class SessionsController extends Controller
 
     public function destroy()
     {
-
       //Cierra sesion
       auth()->logout();
-      return redirect('/');
+      return redirect()->home();
 
     }
 }

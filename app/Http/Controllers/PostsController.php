@@ -6,6 +6,17 @@ use Illuminate\Http\Request;
 
 class PostsController extends Controller
 {
+
+    // public function __construct()
+    // {
+    //
+    //   // Esta linea indica que deberas estar logueado
+    //   // para acceder a los metodos de este Controlador
+    //   // excepto index y show (porque esos metodos los pueden
+    //   // ver cualquier usuario este registrado o no)
+    //   $this->middleware('auth', ['except'=> 'index']);
+    //
+    // }
     public function index()
     {
 
@@ -29,12 +40,17 @@ class PostsController extends Controller
         'body'  => 'required'
       ]);
 
-      //Insertar Post
-      Post::create([
-      'title'   => request('title'),
-      'body'    => request('body')
-      // 'user_id' => auth()->id()
-      ]);
+      auth()->user()->publish(
+        new Post(request(['title', 'body']))
+      );
+      // //Insertar Post
+      // Post::create([
+      // 'title'   => request('title'),
+      // 'body'    => request('body')
+      // // 'user_id' => auth()->id()
+      // ]);
+
+
 
       return redirect('/');
 

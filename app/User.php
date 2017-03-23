@@ -39,7 +39,7 @@ class User extends Authenticatable
       //Esto
       $this->posts()->save($post);
 
-      // Es lo mismo que esto,but menos cool.
+      // Es lo mismo que esto,but menos cool, aunque mas 
       // Post::create([
       //   'title'   => request('title'),
       //   'body'    => request('body'),
