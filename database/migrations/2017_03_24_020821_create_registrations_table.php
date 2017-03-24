@@ -15,6 +15,23 @@ class CreateRegistrationsTable extends Migration
     {
         Schema::create('registrations', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 50);
+            $table->string('addres', 50);
+            $table->string('colonia', 50);
+            $table->string('state', 20);
+            $table->string('country', 20);
+            $table->string('telephone', 20);
+            $table->string('email', 50);
+            $table->string('date_birth', 15);
+            $table->double('height', 2,2); //1 numero entero, 2 decimales
+            $table->string('sex', 1);
+            $table->string('minimal_schooling', 20);
+            $table->string('speciality', 50);
+            $table->string('current_occupation', 50);
+            $table->string('inscription_request', 50);
+            $table->boolean('willing_to_live_jalisco');
+            $table->text('comments');
+            $table->text('questions');
             $table->timestamps();
         });
     }
