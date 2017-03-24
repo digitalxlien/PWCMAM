@@ -5,8 +5,7 @@
 Route::get('/', 'PostsController@index')->name('home');
 Route::get('/posts/create', 'PostsController@create');
 Route::post('/posts/store',  'PostsController@store');
-// REGISTRATIONS
-Route::get('/registrations/create', 'RegistrationsController@create');
+
 //ROUTES TO NUESTRA INSTITUCIÓN:
 Route::get('/bienvenida',   function() { return view('institucion.bienvenida');   });
 Route::get('/historia',     function() { return view('institucion.historia');     });
