@@ -5,11 +5,8 @@
 Route::get('/', 'PostsController@index')->name('home');
 Route::get('/posts/create', 'PostsController@create');
 Route::post('/posts/store',  'PostsController@store');
-
 // REGISTRATIONS
 Route::get('/registrations/create', 'RegistrationsController@create');
-
-
 //ROUTES TO NUESTRA INSTITUCIÓN:
 Route::get('/bienvenida',   function() { return view('institucion.bienvenida');   });
 Route::get('/historia',     function() { return view('institucion.historia');     });
@@ -22,6 +19,8 @@ Route::get('/requisitos', function() { return view('admision.requisitos'); });
 //ROUTES TO ACADÉMICO:
 Route::get('/preparatoria', function() { return view('academico.preparatoria'); });
 Route::get('/apuntes', function() { return view('academico.apuntes'); });
+Route::get('/egresados', function() { return view('academico.egresados'); });
+Route::get('/cursos', function() { return view('academico.cursos'); });
 
 
 //ROUTES TO VIDA DEL CADETE:
