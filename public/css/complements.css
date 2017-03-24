@@ -178,3 +178,7 @@
 }
 
 .anchor:target {padding-top: 60px;}
+
+.img-responsive {
+    margin: 0 auto;
+}
