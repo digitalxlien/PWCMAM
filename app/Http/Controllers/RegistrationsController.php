@@ -6,5 +6,10 @@ use Illuminate\Http\Request;
 
 class RegistrationsController extends Controller
 {
-    //
+    public function create()
+    {
+
+      return view('registrations.create');
+
+    }
 }

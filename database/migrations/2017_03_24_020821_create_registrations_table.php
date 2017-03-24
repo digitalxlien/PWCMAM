@@ -18,6 +18,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('name', 50);
             $table->string('addres', 50);
             $table->string('colonia', 50);
+            $table->string('city', 50);
             $table->string('state', 20);
             $table->string('country', 20);
             $table->string('telephone', 20);
