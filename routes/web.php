@@ -19,6 +19,7 @@ Route::get('/requisitos', function() { return view('admision.requisitos'); });
 Route::get('/preparatoria', function() { return view('academico.preparatoria'); });
 Route::get('/apuntes', function() { return view('academico.apuntes'); });
 Route::get('/egresados', function() { return view('academico.egresados'); });
+Route::get('/cursos', function() { return view('academico.cursos'); });
 
 
 //ROUTES TO VIDA DEL CADETE:
