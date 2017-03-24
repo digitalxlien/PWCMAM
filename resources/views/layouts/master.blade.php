@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Colegio Militarizado Águilas de México</title>
-    <link href = "{{ asset('/css/bootstrap.min.css') }} " rel="stylesheet" type="text/css">
+    <link href = "{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
     <link href = "{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
     <link href = "{{ asset('/css/complements.css') }}" rel="stylesheet" type="text/css">
     <link href = "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
