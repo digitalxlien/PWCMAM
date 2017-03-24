@@ -1,6 +1,6 @@
 <footer>
   <div class="footer" id="footer">
-  <div class="container">
+    <div class="container">
       <div class="justify-content-center">
         <div class="col-md-2">
           <h3> Nuestra Institución </h3>
@@ -8,7 +8,7 @@
             <li><a href="bienvenida">Bienvenida</a></li>
             <li><a href="historia">Historia</a></li>
             <li><a href="moral">Educación Moral</a></li>
-            <li><a href="#">Organización</a></li>
+            <li><a href="organizacion">Organización</a></li>
             <li><a href="#">Instalaciones</a></li>
           </ul>
         </div>
@@ -20,7 +20,6 @@
             <li><a href="requisitos">Requisitos</a></li>
             <li><a href="#">Trabaja con nosotros</a></li>
             <li><a href="#">Links</a></li>
-
           </ul>
         </div>
         <div class="col-md-2">

@@ -5,7 +5,7 @@
     <div>
       <h2 class="text-center text-primary">APUNTES</h2>
     </div><hr>
-    <img class="img-fluid" src="images/image-md.jpg">
+    <img class="img-fluid img-responsive" src="images/image-md.jpg">
     <div class="jumbotron">
       <h4 class="text-center text-primary list-group-item list-group-item-warning">APUNTES DE INSTRUCCION: <br><small class="text-center">En formato Word</small></h4>
       <table class="table table-hover table-responsive table-bordered">

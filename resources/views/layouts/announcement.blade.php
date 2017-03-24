@@ -6,10 +6,10 @@
       </div>
       <div class="panel-body">
         <table class="table table-hover table-responsive">
-            <tr>
-              <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
-              <td class="text-right font-small"><a href="#">Formato en Word</a></td>
-            </tr>
+          <tr>
+            <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
+            <td class="text-right font-small"><a href="#">Formato en Word</a></td>
+          </tr>
         </table>
       </div>
     </div>
@@ -21,11 +21,12 @@
       </div>
       <div class="panel-body">
         <table class="table table-hover table-responsive">
-            <tr>
-              <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
-              <td class="text-right font-small"><a href="#">Formato en Word</a></td>
-            </tr>
+          <tr>
+            <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
+            <td class="text-right font-small"><a href="#">Formato en Word</a></td>
+          </tr>
         </table>
       </div>
     </div>
   </div>
+</div>

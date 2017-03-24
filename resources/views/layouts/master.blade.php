@@ -13,10 +13,15 @@
     <link href = "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="{{ asset('/vendors/ckeditor/ckeditor.js') }}"></script>
  </script>
 </head>
 <body>
+  </script>
+  </head>
+
+  <body>
 
     @include('layouts.nav')
 
@@ -24,7 +29,7 @@
       <div class="row">
 
 
-          @yield('content')
+        @yield('content')
 
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 pull-right">
 
@@ -34,6 +39,7 @@
 
       </div>
     </div>
+
     @include('layouts.footer')
 
   </body>
