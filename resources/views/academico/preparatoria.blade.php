@@ -90,48 +90,54 @@
 
      <div class="jumbotron">
        <h4 class="text-center text-primary list-group-item active">COSTOS:</h4>
-       <table class="table table-hover table-responsive table-bordered">
-         <tbody>
-           <tr>
-             <td class="text-center font-small">COSTO EXAMENES DE ADMISION</td>
-             <td class="text-center font-small">$ 900.00</td>
-             <td class="text-center font-small">Al Ingresar</td>
-           </tr>
-           <tr>
-             <td class="text-center font-small">COSTO DE UNIFORMES <small><a href="documents/Convocatoria.pdf">(Anexo "B" de la Convocatoria de ingreso)</a></small></td>
-             <td class="text-center font-small">$ 4,500.00</td>
-             <td class="text-center font-small">Al Ingresar</td>
-           </tr>
-           <tr>
-             <td class="text-center font-small">CUOTA DE INSCRIPCION</td>
-             <td class="text-center font-small">$ 3,900.00</td>
-             <td class="text-center font-small">Semestral</td>
-           </tr>
+       <div class="table-responsive">
+         <table class="table table-hover table-bordered">
+           <tbody>
+             <tr>
+               <td class="text-center font-small">COSTO EXAMENES DE ADMISION</td>
+               <td class="text-center font-small">$ 900.00</td>
+               <td class="text-center font-small">Al Ingresar</td>
+             </tr>
+             <tr>
+               <td class="text-center font-small">COSTO DE UNIFORMES <small><a href="documents/Convocatoria.pdf">(Anexo "B" de la Convocatoria de ingreso)</a></small></td>
+               <td class="text-center font-small">$ 4,500.00</td>
+               <td class="text-center font-small">Al Ingresar</td>
+             </tr>
+             <tr>
+               <td class="text-center font-small">CUOTA DE INSCRIPCION</td>
+               <td class="text-center font-small">$ 3,900.00</td>
+               <td class="text-center font-small">Semestral</td>
+             </tr>
 
-         </tbody>
-       </table>
+           </tbody>
+         </table>
+       </div>
 
        <h4 class="text-center text-primary list-group-item active">ALUMNOS RESIDENTES (INTERNADO):</h4>
-       <table class="table table-hover table-responsive table-bordered">
-         <tbody>
-           <tr>
-             <td class="text-center font-small">PAGO MENSUAL <small>(Incluye Alimentación, Hospedaje y colegiatura)</small></td>
-             <td class="text-center font-small">$ 7,800.00</td>
-             <td class="text-center font-small">Mensual</td>
-           </tr>
-        </tbody>
-       </table>
+       <div class="table-responsive">
+         <table class="table table-hover table-responsive table-bordered">
+           <tbody>
+             <tr>
+               <td class="text-center font-small">PAGO MENSUAL <small>(Incluye Alimentación, Hospedaje y colegiatura)</small></td>
+               <td class="text-center font-small">$ 7,800.00</td>
+               <td class="text-center font-small">Mensual</td>
+             </tr>
+          </tbody>
+         </table>
+       </div>
 
        <h4 class="text-center text-primary list-group-item active">ALUMNOS MEDIO INTERNADO:</h4>
-       <table class="table table-hover table-responsive table-bordered">
-         <tbody>
-           <tr>
-             <td class="text-center font-small">PAGO MENSUAL <small>(Incluye Desayuno y comida de Lun. a Vie., y colegiatura)</small></td>
-             <td class="text-center font-small">$ 3,100.00</td>
-             <td class="text-center font-small">Mensual</td>
-           </tr>
-        </tbody>
-       </table>
+       <div class="table-responsive">
+         <table class="table table-hover table-responsive table-bordered">
+           <tbody>
+             <tr>
+               <td class="text-center font-small">PAGO MENSUAL <small>(Incluye Desayuno y comida de Lun. a Vie., y colegiatura)</small></td>
+               <td class="text-center font-small">$ 3,100.00</td>
+               <td class="text-center font-small">Mensual</td>
+             </tr>
+          </tbody>
+         </table>
+       </div>
 
        <div class="text-justify">
          <h3 class="text-center font-small h3"><b>Mayor Información:</b></h3>
@@ -139,7 +145,7 @@
          <h3 class="text-center font-small h3">Tel: 01 (341) 413-32-08</h3>
          <h3 class="text-center font-small h3">E-Mail: <a href="mailto:cmam@aguilas.org.mx?subject=Comentarios_desde_pagina_web">cmam@aguilas.org.mx</a></h3>
          <h3 class="text-center text-primary list-group-item list-group-item-danger"><a href="#">¡INSCRIBETE YA!</a></h3>
-         <h3 class="text-center font-small h3">( Aparta tu lugar, Cupo Limitado )</h3>
+         <h3 class="text-center font-small h3">(Aparta tu lugar, Cupo Limitado)</h3>
 
        </div>
      </div>
