@@ -7,8 +7,8 @@
       <div class="panel-body">
         <table class="table table-hover table-responsive">
           <tr>
-            <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
-            <td class="text-right font-small"><a href="#">Formato en Word</a></td>
+            <td class="text-left font-small"><a href="documents/Convocatoria.pdf">Formato en PDF</a></td>
+            <td class="text-right font-small"><a href="documents/Convocatoria.doc">Formato en Word</a></td>
           </tr>
         </table>
       </div>
@@ -22,8 +22,8 @@
       <div class="panel-body">
         <table class="table table-hover table-responsive">
           <tr>
-            <td class="text-left font-small"><a href="#">Formato en PDF</a></td>
-            <td class="text-right font-small"><a href="#">Formato en Word</a></td>
+            <td class="text-left font-small"><a href="documents/Convocatoria_secundaria.pdf">Formato en PDF</a></td>
+            <td class="text-right font-small"><a href="documents/Convocatoria_secundaria.doc">Formato en Word</a></td>
           </tr>
         </table>
       </div>
