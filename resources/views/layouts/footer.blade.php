@@ -27,9 +27,9 @@
           <ul>
             <li><a href="#">Cuadro de Honor</a></li>
             <li><a href="preparatoria">Preparatoria Militarizada</a></li>
-            <li><a href="#">Cursos</a></li>
+            <li><a href="cursos">Cursos</a></li>
             <li><a href="apuntes">Apuntes</a></li>
-            <li><a href="#">Egresados</a></li>
+            <li><a href="egresados">Egresados</a></li>
           </ul>
         </div>
         <div class="col-md-2">
