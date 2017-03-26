@@ -182,3 +182,7 @@
 .img-responsive {
     margin: 0 auto;
 }
+
+.img-padding-bottom {
+  padding-bottom: 1em;
+}

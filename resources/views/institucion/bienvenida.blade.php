@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="col-lg-8 col-md-8 col-sm-12">
-  <div class="col-lg-12 jumbotron">
+  <div class="col-lg-12 ">
     <h2 class="text-center text-primary">BIENVENIDO</h2>
     <blockquote>
       <p class="text-justify">Gracias por visitar la página del Colegio Militarizado "Águilas de México", es para nosotros un honor el poder mostrarte nuestra opción educativa y será muy grato para nosotros el que puedas formar parte activa de esta comunidad de aprendizaje.</p>
@@ -12,17 +12,18 @@
     </blockquote>
 
   </div>
-  <div class="col-lg-12 jumbotron">
-    <img class="img-fluid"src="images/image-md.jpg" alt="image-md.jpg">
+  <div class="col-lg-12 font-medium ">
+    <img class="img-fluid img-padding-bottom "src="images/image-md.jpg" alt="image-md.jpg">
+    <br>
     <p class="text-justify">Es una institución que fué fundada en 1987 como asociación civil y con 29 años de trayectoria institucional y 10 años de experiencia continua al lograr ofrecer un modelo educativo enfocado al desarrollo pleno del alumnado, logrando infundir en nuestros egresados una semilla de liderazgo social en beneficio de nuestra nación.</p>
     <p class="text-justify">Hemos observado con satisfacción como muchos de nuestros egresados han decidido continuar con la carrera de las armas integrándose a los diversos planteles Militares del Ejército, Fuerza Aérea o Marina, así también hemos observado a otros jóvenes que como profesionistas han aplicado los principios que rigen a nuestra institución y han destacado en sus áreas de desempeño,tanto en sus estudios como en su trabajo. </p>
   </div>
 
-  <div class="col-lg-12 jumbotron">
+  <div class="col-lg-12 font-medium ">
     <p>Complementando el plan de estudios marcado por la S.E.P. para secundaria general  y/o bachillerato general nuestros alumnos cursan el "Adiestramiento Básico Militarizado" en donde desarrollan habilidades como el trabajo en Equipo, liderazgo, compañerismo, autodisciplina, carácter sólido, solución creativa de problemas entre otras, en este adiestramiento se ven materias como Legislación Militar, Instrución de Orden Cerrado, Primeros Auxilios, Radiocomunicaciones, Lectura de cartas topográficas, Rescate y salvamento, Supervivencia, Auxilio en casos de Desastres, Defensa personal, Natación y Buceo, Tiro deportivo entre otras.</p>
   </div>
 
-  <div class="col-lg-12 jumbotron">
+  <div class="col-lg-12 font-medium ">
        <p class="text-info text-center">A lo largo del ciclo escolar también se imparten cursos especiales de:</p>
        <table class="table table-hover table-responsive">
          <tbody>
@@ -41,11 +42,11 @@
 
          </tbody>
        </table>
-       <img class="img-fluid"src="images/caballeria.jpg" alt="">
+       <img class="img-fluid img-padding-bottom"src="images/caballeria.jpg" alt="">
   </div>
 
-  <div class="col-lg-12 jumbotron">
-    <img class="img-fluid center-block" src="images/robotica.png" alt="">
+  <div class="col-lg-12 font-medium">
+    <img class="img-fluid img-padding-bottom center-block" src="images/robotica.png" alt="">
     <small>
      A partir de Agosto del 2016, se integra a la curricula educativa: taller de robótica, Club de Ajedrez y un club de "lectura y expresión oral"
     </small>
@@ -54,7 +55,7 @@
     </p>
   </div>
 
-  <div class="col-lg-12 jumbotron">
+  <div class="col-lg-12 font-medium">
     <table class="table table-responsive">
       <tbody>
 
