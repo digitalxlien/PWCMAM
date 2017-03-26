@@ -4,9 +4,7 @@
 <div class="col-lg-8 col-md-8 col-sm-12">
   <h1 class="text-center text-primary">Maniobras</h1>
   <hr>
-  <h1></h1>
-
-
+  
   <p class="text-justify">
     Dentro de la instrucción que se les da a los cadetes, se procura que sea lo mas prácticamente
     posible, con la finalidad de que el contenido de los programas sean didácticos y comprensibles.
