@@ -8,6 +8,7 @@ Route::post('/posts/store',  'PostsController@store');
 
 // REGISTRATIONS
 Route::get('/registrations/create', 'RegistrationsController@create');
+Route::post('/registrations/create', 'RegistrationsController@store');
 
 //ROUTES TO NUESTRA INSTITUCIÓN:
 Route::get('/bienvenida',   function() { return view('institucion.bienvenida');   });

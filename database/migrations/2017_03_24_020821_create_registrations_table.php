@@ -24,7 +24,7 @@ class CreateRegistrationsTable extends Migration
             $table->string('telephone', 20);
             $table->string('email', 50);
             $table->string('date_birth', 15);
-            $table->double('height', 2,2); //2 numeros enteros, 2 decimales
+            $table->double('height');
             $table->char('sex', 1);
             $table->string('minimal_schooling', 20);
             $table->string('speciality', 50);
